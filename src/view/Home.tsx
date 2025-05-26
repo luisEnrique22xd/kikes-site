@@ -3,7 +3,7 @@ import React from 'react';
 export default function Home() {
   return (
     <div className="font-sans bg-yellow-50 text-gray-800">
-      {/* HERO SECTION */}
+
       <div className="relative h-[80vh] bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1590080876644-460c1233f6a9')" }}>
         <div className="bg-black bg-opacity-50 h-full flex flex-col items-center justify-center text-white text-center px-4">
           <h1 className="text-5xl font-extrabold mb-4">Bienvenidos a  Bodeguita Bar</h1>
@@ -17,7 +17,7 @@ export default function Home() {
       </div>
 
 
-      {/* ESPECIALIDADES */}
+
       <section className="py-16 bg-yellow-100 px-6 md:px-20">
         <h2 className="text-3xl font-bold text-red-700 text-center mb-12">Nuestras Especialidades</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
@@ -39,7 +39,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CALL TO ACTION */}
+
       <section className="py-16 text-center bg-red-700 text-white">
         <h2 className="text-3xl font-bold mb-4">¡Te esperamos esta noche!</h2>
         <p className="text-lg mb-6">Haz tu reservación o ven con tus amigos a disfrutar de una experiencia única.</p>
