@@ -1,7 +1,19 @@
-export default function App() {
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import About from './views/About';
+import Contact from './views/Contact';
+
+function App() {
   return (
-      <div><h1 className="font-extrabold text-2xl">
-      kike's site
-      </h1></div>
-  )
+    <Router>
+      <div className="App">
+        Kike`s site`
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
+
+export default App
