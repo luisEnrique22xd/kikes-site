@@ -1,19 +1,20 @@
-import { BrowserRouter as Route, Router, Routes } from "react-router-dom";
-import Navbar from "./components/header";
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import About from './views/About';
+import Contact from './views/Contact';
 
-export default function App() {
+function App() {
   return (
-    //   <Router>
-    //   <Navbar />
-    //   <main className="p-4">
-    //     <Routes>
-    //       <Route path="/" element={<Home />} />
-    //       <Route path="/servicios" element={<Servicios />} />
-    //       <Route path="/contacto" element={<Contacto />} />
-    //     </Routes>
-    //   </main>
-    // </Router>
-    <></>
-  )
+    <Router>
+      <div className="App">
+        Kike`s site`
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
+
+export default App
 
