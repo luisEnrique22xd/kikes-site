@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Home() {
+export default function About() {
     return (
     <section className="max-w-4xl mx-auto px-4 py-12">
       <h1 className="text-4xl font-bold mb-6 text-center text-yellow-700">Sobre Nosotros</h1>

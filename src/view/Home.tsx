@@ -1,7 +1,9 @@
 import React from 'react';
+import Header from '../components/header';
 
 export default function Home() {
   return (
+    <>
     <div className="font-sans bg-yellow-50 text-gray-800">
 
       <div className="relative h-[80vh] bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1590080876644-460c1233f6a9')" }}>
@@ -48,5 +50,6 @@ export default function Home() {
         </button>
       </section>
     </div>
+    </>
   );
 }
