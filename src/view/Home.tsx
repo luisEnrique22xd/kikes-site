@@ -1,24 +1,27 @@
 import React from 'react';
+import Header from '../components/header';
 
 export default function Home() {
   return (
+
     <div className="font-sans bg-blue-100 text-gray-800">
 
 
 
-<div className="relative h-[80vh] bg-cover bg-center " style={{ backgroundImage: "url('/images/fondo.jpg')" }}>
-  <div className=" bg-black opacity-70 h-full flex flex-col items-center justify-center text-white text-center px-4">
-    <div className=" h-full flex flex-col items-center justify-center text-white text-center px-4">
-      <h1 className="text-5xl font-extrabold mb-4 ">Bienvenidos a Bodeguita Bar</h1>
-      <p className="text-xl mb-6 max-w-2xl">
-        Un lugar donde la tradición, los sabores únicos y la buena música se encuentran para brindarte noches inolvidables.
-      </p>
-      <button className="bg-red-600 hover:bg-red-700 px-6 py-3 rounded-lg font-semibold transition duration-300">
-        Explora Nuestro Menú
-      </button>
-    </div>  
-  </div>
-</div>
+    <>
+    <div className="font-sans bg-yellow-50 text-gray-800">
+
+      <div className="relative h-[80vh] bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1590080876644-460c1233f6a9')" }}>
+        <div className="bg-black bg-opacity-50 h-full flex flex-col items-center justify-center text-white text-center px-4">
+          <h1 className="text-5xl font-extrabold mb-4">Bienvenidos a  Bodeguita Bar</h1>
+          <p className="text-xl mb-6 max-w-2xl">
+            Un lugar donde la tradición, los sabores únicos y la buena música se encuentran para brindarte noches inolvidables.
+          </p>
+          <button className="bg-red-600 hover:bg-red-700 px-6 py-3 rounded-lg font-semibold transition duration-300">
+            Explora Nuestro Menú
+          </button>
+        </div>
+      </div>
 
 
       <section className="py-16 bg-blue-100 px-6 md:px-20">
@@ -54,5 +57,6 @@ export default function Home() {
         </button>
       </section>
     </div>
+    </>
   );
 }
