@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        Kike`s site`
+        Kike`s site` 🚀
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
